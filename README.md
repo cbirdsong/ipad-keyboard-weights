@@ -8,6 +8,7 @@ What's intentionally not included:
 
 ## To Do
 
+- [ ] Find someone, anyone who has weighed the Magic Keyboard Folio.
 - [ ] Make this output as a website with a sortable/filterable table.
 - [ ] Split these into JSON files for easier git management.
 - [ ] Display combined weights of each iPad and compatible keyboards.
