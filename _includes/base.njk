@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+		<meta name="generator" content="{{ eleventy.generator }}">
+
+		<style>
+			:root {
+				font-family: system-ui, sans-serif;
+				line-height: 1.5;
+			}
+
+			table {
+				width: 100%;
+				table-layout: fixed;
+				border-collapse: collapse;
+			}
+
+			caption,
+			th {
+				text-align: left;
+			}
+
+			tr:nth-child(even) {
+				background-color: #f5f5f5;
+			}
+
+			td,
+			th {
+				padding: 0.5em 0.75em;
+
+				vertical-align: top;
+
+				border-color: #eeeeee;
+				border-width: 1px 0;
+				border-style: solid;
+			}
+
+			thead {
+				background-color: #eeeeee;
+			}
+		</style>
+	</head>
+	<body>
+		{# <a href="#skip" class="visually-hidden">Skip to main content</a> #}
+
+		<header>
+			<h1>
+				<a href="/" class="home-link">{{ metadata.title }}</a>
+			</h1>
+			<p>{{ metadata.description }}</p>
+		</header>
+
+		<main id="skip">
+			{{ content | safe }}
+		</main>
+
+		<footer>
+			<p>
+				<small>
+					<a href="https://github.com/cbirdsong/ipad-keyboard-weights">View on GitHub</a>
+				</a>
+			</small>
+		</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Apple Magic Keyboard 13-inch (2024)",
+    "links": "https://www.apple.com/shop/product/MWR53LL/A/magic-keyboard-for-ipad-pro-13%E2%80%91inch-m4-us-english-black",
+    "price_usd": "$349.00",
+    "sources": "Six Colors (https://sixcolors.com/post/2024/05/m4_ipad_pro_review/)",
+    "trackpad": true,
+    "weight": 667,
+    "devices": ["iPad Pro 13-inch (M4)"]
+  },
+  {
+    "name": "Apple Magic Keyboard 13-inch (2020)",
+    "links": "https://www.apple.com/shop/product/MJQL3LL/A/magic-keyboard-for-ipad-air-13-inch-m2-us-english-white",
+    "notes": "There was a minor revision of this in 2021, but I assume it’s the same weight.",
+    "price_usd": "$349.00",
+    "sources": "Daring Fireball (https://daringfireball.net/linked/2022/10/22/in-praise-of-smart-keyboard-folio)",
+    "trackpad": true,
+    "weight": 710,
+    "devices": [
+      "iPad Pro 12.9-inch (3rd generation)",
+      "iPad Pro 12.9-inch (4th generation)",
+      "iPad Pro 12.9-inch (5th generation)",
+      "iPad Pro 12.9-inch (M2)"
+    ]
+  },
+  {
+    "name": "Apple Smart Keyboard Folio 12.9-inch",
+    "links": "https://www.apple.com/shop/product/MXNL2LL/A/smart-keyboard-folio-for-ipad-pro-129-inch-6th-generation-us-english",
+    "price_usd": "$199.00",
+    "sources": "Daring Fireball (https://daringfireball.net/linked/2022/10/22/in-praise-of-smart-keyboard-folio)",
+    "trackpad": false,
+    "weight": 407,
+    "devices": [
+      "iPad Pro 12.9-inch (3rd generation)",
+      "iPad Pro 12.9-inch (4th generation)",
+      "iPad Pro 12.9-inch (5th generation)",
+      "iPad Pro 12.9-inch (M2)"
+    ]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Pro 13-inch (M4)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-pro.html",
+    "price_usd": "$259.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 660,
+    "devices": ["iPad Pro 13-inch (M4)"]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Air 13-inch (M2)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-air.html",
+    "price_usd": "$229.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 686,
+    "devices": ["iPad Air M2 (13-inch)"]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Pro 12.9-inch (5th-6th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-pro.html",
+    "price_usd": "$229.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 780,
+    "devices": ["iPad Pro 12.9-inch (5th generation)", "iPad Pro 12.9-inch (6th generation)"]
+  },
+  {
+    "name": "Apple Magic Keyboard 11-inch (2024)",
+    "links": "https://www.apple.com/shop/product/MWR03LL/A/magic-keyboard-for-ipad-pro-11%E2%80%91inch-m4-us-english-white",
+    "price_usd": "$299.00",
+    "sources": "Random MacRumors forum member (https://www.macrumors.com/2024/05/14/ipad-pro-magic-keyboard-accessory-weight/)",
+    "trackpad": true,
+    "weight": 580,
+    "devices": ["iPad Pro 11-inch (M4)"]
+  },
+  {
+    "name": "Apple Magic Keyboard 11-inch (2020)",
+    "links": "https://www.apple.com/shop/product/MXQT2LL/A/magic-keyboard-for-ipad-air-11-inch-m2-us-english-black",
+    "price_usd": "$299.00",
+    "sources": "MacRumors (https://www.macrumors.com/guide/magic-keyboard/)",
+    "trackpad": true,
+    "weight": 601,
+    "devices": [
+      "iPad Pro 11-inch",
+      "iPad Pro 11-inch (2nd generation)",
+      "iPad Pro 11-inch (3rd generation)",
+      "iPad Pro 11-inch (M2)",
+      "iPad Air (4th-5th generation) "
+    ]
+  },
+  {
+    "name": "Apple Smart Keyboard Folio 11-inch",
+    "links": "https://www.apple.com/shop/product/MXNK2LL/A/smart-keyboard-folio-for-ipad-pro-11-inch-4th-generation-and-ipad-air-5th-generation-us-english",
+    "price_usd": "$179.00",
+    "sources": "My kitchen scale",
+    "trackpad": false,
+    "weight": 311,
+    "devices": [
+      "iPad Pro 11-inch",
+      "iPad Pro 11-inch (2nd generation)",
+      "iPad Pro 11-inch (3rd generation)",
+      "iPad Pro 11-inch (M2)",
+      "iPad Air (4th-5th generation) "
+    ]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Pro 11-inch (M4)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-pro.html",
+    "price_usd": "$229.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 474,
+    "devices": ["iPad Pro 11-inch (M4)"]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Pro 11-inch (1st-4th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-pro.html",
+    "price_usd": "$199.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 574,
+    "devices": [
+      "iPad Pro 11-inch",
+      "iPad Pro 11-inch (2nd generation)",
+      "iPad Pro 11-inch (3rd generation)",
+      "iPad Pro 11-inch (M2)"
+    ]
+  },
+  {
+    "name": "Logitech Folio Touch for iPad Pro 11-inch (1st-4th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/folio-touch.920-009743.html",
+    "price_usd": "$159.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 646,
+    "devices": [
+      "iPad Pro 11-inch",
+      "iPad Pro 11-inch (2nd generation)",
+      "iPad Pro 11-inch (3rd generation)",
+      "iPad Pro 11-inch (M2)"
+    ]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Air 11-inch (M2)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-air.html",
+    "price_usd": "$199.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 495,
+    "devices": ["iPad Air M2 (11-inch)"]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad Air 10.9-inch",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad-air.html",
+    "price_usd": "$199.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 574,
+    "devices": ["iPad Air (4th generation)", "iPad Air (5th generation)"]
+  },
+  {
+    "name": "Logitech Folio Touch for iPad Air 10.9-inch / 11-inch ",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/folio-touch.html",
+    "price_usd": "$159.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 643,
+    "devices": ["iPad Air (4th generation)", "iPad Air (5th generation)", "iPad Air M2 (11-inch)"]
+  },
+  {
+    "name": "Apple Magic Keyboard Folio for iPad (10th generation)",
+    "links": "https://www.apple.com/shop/product/MQDP3LL/A/magic-keyboard-folio-for-ipad-10th-generation-us-english",
+    "price_usd": "$249.00",
+    "sources": "",
+    "trackpad": true,
+    "weight": null,
+    "devices": ["iPad (10th generation)"]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad (10th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad.html",
+    "price_usd": "$159.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 572,
+    "devices": ["iPad (10th generation)"]
+  },
+  {
+    "name": "Logitech Slim Folio for iPad (10th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/slim-folio-ipad-keyboard-case.html",
+    "price_usd": "$99.00",
+    "sources": "Logitech",
+    "trackpad": false,
+    "weight": 449,
+    "devices": ["iPad (10th generation)"]
+  },
+  {
+    "name": "Logitech Rugged Folio for iPad (10th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/rugged-folio.html",
+    "price_usd": "$139.00",
+    "sources": "Logitech",
+    "trackpad": false,
+    "weight": 570,
+    "devices": ["iPad (10th generation)"]
+  },
+  {
+    "name": "Logitech Combo Touch for iPad (7th-9th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad.html",
+    "price_usd": "$149.00",
+    "sources": "Logitech",
+    "trackpad": true,
+    "weight": 610,
+    "devices": ["iPad (7th generation)", "iPad (8th generation)", "iPad (9th generation)"]
+  },
+  {
+    "name": "Logitech Rugged Folio for iPad (7th-9th generation)",
+    "links": "https://www.logitech.com/en-us/products/ipad-keyboards/rugged-folio.html",
+    "price_usd": "$139.00",
+    "sources": "Logitech",
+    "trackpad": false,
+    "weight": 605,
+    "devices": ["iPad (7th generation)", "iPad (8th generation)", "iPad (9th generation)"]
+  }
+]

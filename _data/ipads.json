@@ -1,0 +1,186 @@
+[
+  {
+    "name": "iPad (7th generation)",
+    "release_date": "September 25, 2019",
+    "processor": "A10 Fusion",
+    "model_identifiers": ["iPad7,11", "iPad7,12"],
+    "model_numbers": ["A2197", "A2198", "A2200"],
+    "weight_wifi": 483
+  },
+  {
+    "name": "iPad (8th generation)",
+    "release_date": "September 18, 2020",
+    "processor": "A12 Bionic",
+    "model_identifiers": ["iPad11,6", "iPad11,7"],
+    "model_numbers": ["A2270", "A2428", "A2429", "A2430"],
+    "weight_wifi": 490
+  },
+  {
+    "name": "iPad (9th generation)",
+    "release_date": "September 24, 2021",
+    "processor": "A13 Bionic",
+    "model_identifiers": ["iPad12,1", "iPad12,2"],
+    "model_numbers": ["A2602", "A2603", "A2604", "A2605"],
+    "weight_wifi": 487
+  },
+  {
+    "name": "iPad (10th generation)",
+    "release_date": "October 26, 2022",
+    "processor": "A14 Bionic",
+    "model_identifiers": ["iPad13,18", "iPad13,19"],
+    "model_numbers": ["A2696", "A2757", "A2777"],
+    "weight_wifi": 477
+  },
+  {
+    "name": "iPad Air (3rd generation)",
+    "release_date": "March 18, 2019",
+    "processor": "A12 Bionic",
+    "model_identifiers": ["iPad11,3", "iPad11,4"],
+    "model_numbers": ["A2152", "A2123", "A2153", "A2154"],
+    "weight_wifi": 456
+  },
+  {
+    "name": "iPad Air (4rd generation)",
+    "release_date": "October 23, 2020",
+    "processor": "A14 Bionic",
+    "model_identifiers": ["iPad13,1", "iPad13,2"],
+    "model_numbers": ["A2316", "A2072", "A2324", "A2325"],
+    "weight_wifi": 458
+  },
+  {
+    "name": "iPad Air (5rd generation)",
+    "release_date": "March 18, 2022",
+    "processor": "M1",
+    "model_identifiers": ["iPad13,16", "iPad13,17"],
+    "model_numbers": ["A2588", "A2589", "A2591"],
+    "weight_wifi": 461
+  },
+  {
+    "name": "iPad Air 11-inch (M2)",
+    "release_date": "May 15, 2024",
+    "processor": "M2",
+    "model_identifiers": ["iPad14,8", "iPad14,9"],
+    "model_numbers": ["A2898", "A2899", "A2900"],
+    "weight_wifi": 462
+  },
+  {
+    "name": "iPad Air 13-inch (M2)",
+    "release_date": "May 15, 2024",
+    "processor": "M2",
+    "model_identifiers": ["iPad14,10", "iPad14,11"],
+    "model_numbers": ["A2902", "A2903", "A2904"],
+    "weight_wifi": 617
+  },
+  {
+    "name": "iPad Pro 12.9-inch",
+    "release_date": "November 11, 2015",
+    "processor": "A9X",
+    "model_identifiers": ["iPad6,7", "iPad6,8"],
+    "model_numbers": ["A1673", "A1674", "A1675"],
+    "weight_wifi": 713
+  },
+  {
+    "name": "iPad Pro 9.7-inch",
+    "release_date": "March 31, 2016",
+    "processor": "",
+    "model_identifiers": ["iPad6,3", "iPad6,4"],
+    "model_numbers": ["A1584", "A1652"],
+    "weight_wifi": 437
+  },
+  {
+    "name": "iPad Pro 12.9-inch (2nd generation)",
+    "release_date": "June 13, 2017",
+    "processor": "A10X Fusion",
+    "model_identifiers": ["iPad7,1", "iPad7,2"],
+    "model_numbers": ["A1670", "A1671"],
+    "weight_wifi": 677
+  },
+  {
+    "name": "iPad Pro 10.5-inch",
+    "release_date": "June 13, 2017",
+    "processor": "A10X Fusion",
+    "model_identifiers": ["iPad7,3", "iPad7,4"],
+    "model_numbers": ["A1701", "A1709"],
+    "weight_wifi": 469
+  },
+  {
+    "name": "iPad Pro 11-inch",
+    "release_date": "November 7, 2018",
+    "processor": "A12X Bionic",
+    "model_identifiers": ["iPad8,1", "iPad8,2", "iPad8,3", "iPad8,4"],
+    "model_numbers": ["A1980", "A2013", "A1934", "A1979"],
+    "weight_wifi": 468
+  },
+  {
+    "name": "iPad Pro 12.9-inch (3rd generation)",
+    "release_date": "November 7, 2018",
+    "processor": "A12X Bionic",
+    "model_identifiers": ["iPad8,5", "iPad8,6", "iPad8,7", "iPad8,8"],
+    "model_numbers": ["A1876", "A2014", "A1895", "A1983"],
+    "weight_wifi": 631
+  },
+  {
+    "name": "iPad Pro 11-inch (2nd generation)",
+    "release_date": "March 25, 2020",
+    "processor": "A12Z Bionic",
+    "model_identifiers": ["iPad8,9", "iPad8,10"],
+    "model_numbers": ["A2069", "A2229", "A2232", "A2233"],
+    "weight_wifi": 471
+  },
+  {
+    "name": "iPad Pro 12.9-inch (4th generation)",
+    "release_date": "March 25, 2020",
+    "processor": "A12Z Bionic",
+    "model_identifiers": ["iPad8,11", "iPad8,12"],
+    "model_numbers": ["A2068", "A2228", "A2230", "A2231"],
+    "weight_wifi": 641
+  },
+  {
+    "name": "iPad Pro 11-inch (3rd generation)",
+    "release_date": "May 21, 2021",
+    "processor": "M1",
+    "model_identifiers": ["iPad13,4", "iPad13,5", "iPad13,6", "iPad13,7"],
+    "model_numbers": ["A2301", "A2377", "A2459", "A2460"],
+    "weight_wifi": 466
+  },
+  {
+    "name": "iPad Pro 12.9-inch (5th generation)",
+    "release_date": "May 21, 2021",
+    "processor": "M1",
+    "model_identifiers": ["iPad13,8", "iPad13,9", "iPad13,10", "iPad13,11"],
+    "model_numbers": ["A2378", "A2379", "A2461", "A2462"],
+    "weight_wifi": 682
+  },
+  {
+    "name": "iPad Pro 11-inch (M2)",
+    "release_date": "October 26, 2022",
+    "processor": "M2",
+    "model_identifiers": ["iPad14,3", "iPad14,4"],
+    "model_numbers": ["A2436", "A2437", "A2764", "A2766"],
+    "weight_wifi": 466
+  },
+  {
+    "name": "iPad Pro 12.9-inch (M2)",
+    "release_date": "October 26, 2022",
+    "processor": "M2",
+    "model_identifiers": ["iPad14,5", "iPad14,6"],
+    "model_numbers": ["A2435", "A2759", "A2761", "A2762"],
+    "weight_wifi": 682
+  },
+  {
+    "name": "iPad Pro 11-inch (M4)",
+    "release_date": "May 15, 2024",
+    "processor": "M4",
+    "model_identifiers": ["iPad16,3", "iPad16,4"],
+    "model_numbers": ["A2836", "A2837", "A3006"],
+    "weight_wifi": 444
+  },
+  {
+    "name": "iPad Pro 13-inch (M4)",
+    "release_date": "May 15, 2024",
+    "processor": "M4",
+    "model_identifiers": ["iPad16,5", "iPad16,6"],
+    "model_numbers": ["A2925", "A2926", "A3007"],
+    "weight_wifi": 579
+  }
+]

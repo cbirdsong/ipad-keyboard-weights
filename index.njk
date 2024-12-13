@@ -1,0 +1,51 @@
+---
+layout: base.njk
+---
+
+<table>
+	<caption>
+		<h2>iPads</h2>
+	</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Weight</th>
+			<th>Model Identifiers</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for ipad in ipads %}
+			<tr>
+				<th>{{ ipad.name }}</th>
+				<td>{{ ipad.weight_wifi }} grams</td>
+				<td>{{ ipad.model_identifiers | join('\n') | nl2br | safe }}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+{# <pre>{{ ipads | dump }}</pre> #}
+
+<table>
+	<caption>
+		<h2>Keyboards</h2>
+	</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Weight</th>
+			<th>Devices</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for keyboard in keyboards %}
+			<tr>
+				<td>{{ keyboard.name }}</td>
+				<td>{{ keyboard.weight }} grams</td>
+				<td>{{ keyboard.devices | join('\n') | nl2br | safe }}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+{# <pre>{{ keyboards | dump }}</pre> #}
