@@ -2,50 +2,102 @@
 layout: base.njk
 ---
 
-<table>
-	<caption>
-		<h2>iPads</h2>
-	</caption>
-	<thead>
-		<tr>
-			<th>Name</th>
-			<th>Weight</th>
-			<th>Model Identifiers</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for ipad in ipads %}
+<div class="tables">
+
+	<table>
+		<caption>
+			<h2>Keyboards</h2>
+		</caption>
+		<thead>
 			<tr>
-				<th>{{ ipad.name }}</th>
-				<td>{{ ipad.weight_wifi }} grams</td>
-				<td>{{ ipad.model_identifiers | join('\n') | nl2br | safe }}</td>
+				<th>Name</th>
+				<th>Weight</th>
+				{# <th>Size Class</th> #}
+				<th>Supported iPads</th>
 			</tr>
-		{% endfor %}
-	</tbody>
-</table>
+		</thead>
+		<tbody>
+			{% for keyboard in keyboards %}
+				<tr>
+					<th>
+						<details>
+							<summary>{{ keyboard.name }}</summary>
+							<dl>
+								<dt>Trackpad</dt>
+								<dd>{{ "✅" if keyboard.trackpad else "❌" }}</dd>
+								{% if keyboard.price_usd %}
+									<dt>Price (USD)</dt>
+									<dd>{{ keyboard.price_usd }}</dd>
+								{% endif %}
+								{% if keyboard.sources %}
+									<dt>Sources</dt>
+									<div>
+										{% for item in keyboard.sources %}
+											<dd>
+												{% if item.url %}
+													<a href="{{ item.url }}" target="_blank">{{ item.text }}</a>
+												{% else %}
+													{{ item.text }}
+												{% endif %}
+											</dd>
+										{% endfor %}
+									</div>
+								{% endif %}
+							</dl>
+
+							{% if keyboard.notes %}
+								<p>{{ keyboard.notes }}</p>
+							{% endif %}
+						</details>
+					</th>
+					<td>{{ keyboard.weight if keyboard.weight else "???" }} grams</td>
+					{# <td>{{ keyboard.size_class }}</td> #}
+					<td>{{ keyboard.devices | join('\n') | nl2br | safe }}</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	{# <pre>{{ keyboards | dump }}</pre> #}
+
+	<table>
+		<caption>
+			<h2>iPads</h2>
+		</caption>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Weight</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for ipad in ipads %}
+				<tr>
+					<th>
+						<details>
+							<summary>{{ ipad.name }}</summary>
+							<dl>
+								<dt>Release Date</dt>
+								<dd>{{ ipad.release_date }}</dd>
+								<dt>Processor</dt>
+								<dd>{{ ipad.processor }}</dd>
+								<dt>Model Identifiers</dt>
+								<dd>{{ ipad.model_identifiers | join(', ') | safe }}</dd>
+								<dt>Model Numbers</dt>
+								<dd>{{ ipad.model_numbers | join(', ') | safe }}</dd>
+							</dl>
+						</details>
+					</th>
+					<td>{{ ipad.weight }} grams</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+</div>
 
 {# <pre>{{ ipads | dump }}</pre> #}
 
-<table>
-	<caption>
-		<h2>Keyboards</h2>
-	</caption>
-	<thead>
-		<tr>
-			<th>Name</th>
-			<th>Weight</th>
-			<th>Devices</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for keyboard in keyboards %}
-			<tr>
-				<td>{{ keyboard.name }}</td>
-				<td>{{ keyboard.weight }} grams</td>
-				<td>{{ keyboard.devices | join('\n') | nl2br | safe }}</td>
-			</tr>
-		{% endfor %}
-	</tbody>
-</table>
-
-{# <pre>{{ keyboards | dump }}</pre> #}
+<p>
+	<em>For reference, <a href="https://www.apple.com/macbook-air/specs/">a 13" MacBook Air is 1,240 grams</a>.</em>
+</p>

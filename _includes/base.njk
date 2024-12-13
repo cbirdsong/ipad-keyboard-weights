@@ -15,9 +15,15 @@
 				line-height: 1.5;
 			}
 
+			a[target="_blank"]::after {
+				content: "⎋";
+				display: inline-block;
+				margin-inline: 0.125ch;
+				rotate: y 180deg;
+				font-size: 75%;
+			}
+
 			table {
-				width: 100%;
-				table-layout: fixed;
 				border-collapse: collapse;
 			}
 
@@ -36,13 +42,44 @@
 
 				vertical-align: top;
 
-				border-color: #eeeeee;
-				border-width: 1px 0;
+				border-width: 1px;
+				border-color: #dddddd;
 				border-style: solid;
+			}
+			th {
+				font-weight: 450;
 			}
 
 			thead {
-				background-color: #eeeeee;
+				background-color: #dddddd;
+			}
+			thead th {
+				font-weight: 600;
+				font-size: 1.1em;
+				border-width: 0;
+			}
+
+			dl {
+				display: grid;
+				grid-template-columns: max-content 1fr;
+				gap: 0.25em 1ch;
+			}
+
+			dt {
+				font-weight: 550;
+			}
+			dd {
+				margin: 0;
+			}
+
+			summary {
+				font-weight: 550;
+			}
+
+			.tables {
+				display: flex;
+				flex-flow: row wrap;
+				gap: 3em;
 			}
 		</style>
 	</head>

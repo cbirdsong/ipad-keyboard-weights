@@ -9,10 +9,9 @@ What's intentionally not included:
 
 ## To Do
 
+- [ ] Add a way to display combined weights of iPads and compatible keyboards.
+- [ ] [Make the table sortable/filterable](https://github.com/zachleat/filter-container).
 - [ ] Find someone, anyone who has weighed the Magic Keyboard Folio.
-- [ ] Add more stuff to the table.
-- [ ] Make the table sortable/filterable.
-- [ ] Display combined weights of each iPad and compatible keyboards.
 
 ## Data Sources
 
